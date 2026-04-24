@@ -1,0 +1,11 @@
+@import url(../style.css);
+@import url(../components/nav.css);
+@import url(components/footer.css);
+
+body{
+    background-color: var(--color-fondo);
+}
+
+main {
+    width: 100vh;
+}
