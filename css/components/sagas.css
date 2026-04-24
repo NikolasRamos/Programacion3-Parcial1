@@ -7,14 +7,14 @@ body {
 }
 
 /* ====== TÍTULO ====== */
-.saga_super h2 {
+.saga h2 {
     text-align: center;
     margin: 20px 0;
     font-size: 28px;
 }
 
 /* ====== GRID ====== */
-.saga_super {
+.saga {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
