@@ -1,4 +1,4 @@
-/* ====== BASE SAGA SUPER ====== */
+/* ====== BASE SAGA ====== */
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
@@ -13,7 +13,6 @@ body {
     font-size: 28px;
 }
 
-/* ====== GRID ====== */
 .saga {
     display: flex;
     flex-direction: column;
@@ -48,7 +47,6 @@ body {
     padding: 20px;
     justify-content: center;
 }
-
 
 /* Hover más moderno */
 .personaje:hover {
