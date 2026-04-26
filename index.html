@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FighterZ</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/sagas.css">
 </head>
 <body>
     <header>
         <div class="header-logo">
-            <h1>FighterZ</h1>
-            <img src="" alt="Logo" class="logo-img">
+            <img src="assets/icons/LogoPagina.png" alt="Logo" class="logo-img">
         </div>
 
         <nav class="header-nav">
             <ul class="nav-list-left">
-                <li><a href="index.html" class="nav-link">Inicio</a></li>
-                <li><a href="pages/estrenos.html" class="nav-link">Proximos estrenos</a></li>
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#saiyan" class="nav-link">Saga Saiyan</a></li>
+                <li><a href="#namek" class="nav-link">Saga Namek</a></li>
+                <li><a href="#androide" class="nav-link">Saga Androide</a></li>
+                <li><a href="#bu" class="nav-link">Saga Bu</a></li>
+                <li><a href="#super" class="nav-link">Saga Super</a></li>
+                <li><a href="#peliculas" class="nav-link">Saga Peliculas</a></li>
             </ul>
 
             <ul class="nav-list-right">
                 <li class="nav-link"><button id="nav-button"><i id="icon-sol"></i><i id="icon-luna"></i></button></li>
-                <li><a href="pages/login.html" class="nav-link">Login</a></li>
             </ul>
     </nav>
     </header>
 
     <main>
-        <div class="info">
-            <p>Bienvenido a FighterZ,FighterZ es un videojuego de lucha en 2D desarrollado por Arc System Works y publicado por Bandai Namco Entertainment, basado en la famosa franquicia de Akira Toriyama.  Lanzado originalmente el 26 de enero de 2018, el juego destaca por su sistema de combate 3 contra 3 y sus gráficos de anime de alta calidad, logrando vender más de 10 millones de copias en todo el mundo</p>
+        <div id="inicio" class="info">
+            <h1>FighterZ</h1>
+
+            <p>Bienvenido a FighterZ, FighterZ es un videojuego de lucha en 2D desarrollado por Arc System Works y publicado por Bandai Namco Entertainment, basado en la famosa franquicia de Akira Toriyama. Lanzado originalmente el 26 de enero de 2018, el juego destaca por su sistema de combate 3 contra 3 y sus gráficos de anime de alta calidad, logrando vender más de 10 millones de copias en todo el mundo.</p>
         </div>
 
         <div class="personajes_totales">
@@ -100,6 +104,27 @@
             
             <div class="saga_namek"> <!--goku(saiyan), friezer, ginyu, picolo -->
 
+                    <div class="personaje">
+                        <h3>Capitan Ginyu</h3>
+                        <img src="assets/img/namek/Capitan-Ginyu.png" alt="Capitan Ginyu">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li>Strong Jersey</li>
+                            <li>Ginyu Force</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Picolo</h3>
+                        <img src="assets/img/namek/Picolo.png" alt="Picolo">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li>Demon Elbow</li>
+                            <li>Demon Slicer</li>
+                        </ul>
+                    </div>
+                    
+                </div>
             </div>
             <div class="saga_androide"> <!--trunks(saiyan), vegeta (super vegeta), cell, androide 18, androide 16, gohan (fase 2)-->
 
@@ -107,7 +132,7 @@
             <div class="saga_buu"> <!--pequeño buu, gohan definitivo, gotenks, buu (gordo)-->
 
             </div>
-<div class="saga"> <!--androide 17 (super) goku blue, vegeta blue, vegetto blue, bills, hit, black goku (rose), zamas (fusionado)-->
+            <div id="super" class="saga">
                 <h2>Saga Super</h2>
                 <div class="contenedor_personajes">
 
@@ -198,10 +223,80 @@
                     </div>
                 </div>
             </div>    
-        </div>
 
-        </div>
-        <div class="peliculas"> <!--bardock, broly (z), cooler. androide 21 -->
+            <div id="peliculas" class="saga">
+                <h2>Películas</h2>
+                <div class="contenedor_personajes">
+
+                    <div class="personaje">
+                        <h3>Bardock</h3>
+                        <img src="assets/img/peliculas/DBFZ_Bardock.png" alt="Bardock">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Riot Javelin</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 236"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Saiyan Spirit</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Broly (Z)</h3>
+                        <img src="assets/img/peliculas/DBFZ_Broly.png" alt="Broly">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Eraser Cannon</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 236"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Gigantic Meteor</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Broly (DBS)</h3>
+                        <img src="assets/img/peliculas/DBFZ_Broly_(DBS).png" alt="Broly(DBS)">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Gigantic Charge</li>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M">(A)</span> Gigantic Impact</li>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Meteor Shower</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 214"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Gigantic Roar</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Cooler</h3>
+                        <img src="assets/img/peliculas/DBFZ_Cooler.png" alt="Cooler">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Death Crasher</li>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M">(A)</span> Death Drop</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 214"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Atomic Supernova</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Gogeta Blue</h3>
+                        <img src="assets/img/peliculas/DBFZ_Gogeta_(SSGSS).png" alt="Gogeta Blue">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> God Punisher</li>
+                            <li><span>*<img src="assets/inputs/Input_L.webp" alt="Input L"></span> Stardust Breaker</li>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Stardust Fall</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 214"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Big Bang Kamehameha</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 214"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Meteor Explosion</li>
+                            <li><span>*<img src="assets/inputs/Input_S.webp" alt="Input S"></span> Ultimate Kamehameha</li>
+                        </ul>
+                    </div>
+
+                    <div class="personaje">
+                        <h3>Janemba</h3>
+                        <img src="assets/img/peliculas/DBFZ_Janemba.png" alt="Janemba">
+                        <h4>Movimientos especiales:</h4>
+                        <ul>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_L.webp" alt="Input L"> <img src="assets/inputs/Input_M.webp" alt="Input M"></span> Rakshasa's Claw</li>
+                            <li><span><img src="assets/inputs/Input_236.webp" alt="Input 236"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Savage Skewer</li>
+                            <li><span><img src="assets/inputs/Input_214.webp" alt="Input 236"> <img src="assets/inputs/Input_H.webp" alt="Input H"> <img src="assets/inputs/Input_S.webp" alt="Input S"></span> Needle Light Shower</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
 
         </div>
 

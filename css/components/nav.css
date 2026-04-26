@@ -12,6 +12,12 @@ header {
     color: var(--color-texto);
 }
 
+.logo-img {
+    width: 110px;
+    height: auto;
+    margin-left: 12px;
+}
+
 .header-nav {
     display: flex;
     align-items: center;
