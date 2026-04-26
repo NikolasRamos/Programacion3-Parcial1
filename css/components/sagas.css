@@ -22,6 +22,12 @@ body {
 }
 
 /* ====== TARJETAS ====== */
+.personajes_totales{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content:center;
+}
 .personaje {
     flex: 0 1;
     min-width: 200px;
@@ -57,7 +63,7 @@ body {
     object-fit: contain;
     border-radius: 8px;
 }
-
+/* Iconos pequeños */
 .personaje span img{
     width: 16px;
     height: 16px;
@@ -65,7 +71,7 @@ body {
 
 .personaje span {
     font-size: 12px;
-    color:orangered;
+    color: var(--color-primario);
 }
 
 /* ====== TEXTOS ====== */
@@ -86,10 +92,10 @@ body {
     padding: 0;
 }
 
+/* Bordes entre elementos*/
 .personaje li {
     font-size: 14px;
     margin: 3px 0;
     color: var(--color-texto-suave);
     border-bottom: 1px solid var(--color-borde);
 }
-/* ----- FIN SAGA SUPER ----- */
