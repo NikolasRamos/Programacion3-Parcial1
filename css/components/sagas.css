@@ -1,5 +1,6 @@
 /* ====== BASE SAGA ====== */
 body {
+    display: inline-block;
     background-color: var(--color-fondo);
     color: var(--color-texto);
     font-family: Arial, sans-serif;
