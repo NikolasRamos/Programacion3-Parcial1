@@ -12,7 +12,7 @@
 ## 🛠️ Tecnologías utilizadas
 * **HTML5:** Estructura semántica del sitio.
 * **CSS3:** Estilos personalizados, variables, Flexbox y animaciones de transición.
-* **JS:** 
+* **JS:**  Manejo del modo claro y oscuro
 * **SVG:** Iconografía escalable para la sección de contacto y equipo.
 
 ## 🛠️ Metodología de trabajo
